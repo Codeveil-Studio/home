@@ -37,3 +37,4 @@ A modern React template for web applications and games, featuring React 18, Vite
 - TailwindCSS
 - ESLint
 - Javascript
+"# home" 
