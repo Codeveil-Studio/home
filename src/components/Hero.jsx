@@ -12,13 +12,13 @@ const Hero = () => {
       <div className="absolute bottom-1/3 right-1/4 w-80 h-80 bg-purple-300/10 dark:bg-purple-500/10 rounded-full blur-3xl"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 leading-tight">
           <span className="block">We Build Code.</span>
-          <span className="block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent pb-4">
             We Design Dreams.
           </span>
         </h1>
-        <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8">
+        <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 ">
           Transforming ideas into digital experiences. Codeveil Studio combines cutting-edge 
           technology with creative design to deliver exceptional digital solutions.
         </p>

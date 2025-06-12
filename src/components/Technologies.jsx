@@ -44,11 +44,6 @@ const Technologies = () => {
         ))}
       </div>
 
-      <div className="mt-16 text-center">
-        <p className="text-gray-600 dark:text-gray-400">
-          And many more technologies depending on project requirements.
-        </p>
-      </div>
     </div>
   );
 };

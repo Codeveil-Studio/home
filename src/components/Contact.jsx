@@ -148,22 +148,22 @@ const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-lg font-semibold mb-2">Location</h4>
-                <p>123 Innovation Drive</p>
-                <p>Tech Hub, Silicon Valley</p>
-                <p>California, United States</p>
+                {/* <p>123 Innovation Drive</p>
+                <p>Tech Hub, Silicon Valley</p> */}
+                <p>karachi, Pakistan</p>
               </div>
               
               <div>
                 <h4 className="text-lg font-semibold mb-2">Email Us</h4>
                 <a href="mailto:info@codeveilstudio.com" className="hover:underline transition-all">
-                  info@codeveilstudio.com
+                  codeveilstudio@gmail.com
                 </a>
               </div>
               
               <div>
                 <h4 className="text-lg font-semibold mb-2">Call Us</h4>
                 <a href="tel:+15551234567" className="hover:underline transition-all">
-                  +1 (555) 123-4567
+                  +92 318-2019904
                 </a>
               </div>
               
@@ -171,7 +171,7 @@ const Contact = () => {
                 <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://linkedin.com/company/codeveilstudio" 
+                    href="https://www.linkedin.com/company/codeveil-studio/" 
                     target="_blank" 
                     rel="noreferrer"
                     className="bg-white/20 hover:bg-white/30 transition-all p-3 rounded-full"
@@ -187,7 +187,7 @@ const Contact = () => {
                     <FiGithub size={20} />
                   </a>
                   <a 
-                    href="https://instagram.com/codeveilstudio" 
+                    href="https://www.instagram.com/codeveilstudio/" 
                     target="_blank" 
                     rel="noreferrer"
                     className="bg-white/20 hover:bg-white/30 transition-all p-3 rounded-full"

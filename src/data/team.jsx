@@ -14,9 +14,10 @@ const team = [
     skills: ["React", "js", "C++", "C#", "java", "Team Leadership"],
     photo: ammadImg,
     social: {
-      linkedin: "https://linkedin.com/in/alexmorgan",
-      github: "https://github.com/alexmorgan",
-      twitter: "https://twitter.com/alexmorgan"
+      linkedin: "https://www.linkedin.com/in/ammad-ahmed-608156338/",
+      github: "https://github.com/ahmedammad1709",
+      twitter: "https://x.com/ammadahmed1709",
+      instagram: "https://www.instagram.com/ammad_innovates/"
     }
   },
   {
