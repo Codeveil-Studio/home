@@ -110,7 +110,7 @@ const Contact = () => {
                   required
                   rows="5"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-700/50 dark:text-white dark:placeholder-gray-400"
-                  placeholder="Tell us about your project or inquiry"
+                  placeholder="Tell us about your project or inquiry" 
                 />
               </div>
               

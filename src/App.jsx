@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Services from './components/services';
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -33,6 +35,9 @@ function App() {
         </section>
         <section id="about" className="py-20">
           <About />
+        </section>
+        <section id="about" className="py-20">
+          <Services />
         </section>
         <section id="technologies" className="py-20 bg-gray-50 dark:bg-gray-800/50">
           <Technologies />
