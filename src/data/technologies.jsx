@@ -2,11 +2,11 @@
 import React from 'react';
 import { 
   FaHtml5, FaCss3Alt,FaBootstrap , FaJs, FaReact, FaVuejs, FaAngular, 
-  FaNodeJs, FaPython, FaJava, FaUnity, FaFigma, FaDocker, FaCube 
+  FaNodeJs, FaPython, FaJava, FaUnity, FaFigma, FaDocker, FaCube, FaDatabase
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiFlutter, SiFirebase, SiMongodb,
-  SiPostgresql, SiTailwindcss, SiAdobexd, SiGraphql, SiAdobephotoshop  
+  SiPostgresql, SiTailwindcss, SiAdobexd, SiGraphql, SiAdobephotoshop, SiMysql, SiAdobeillustrator, SiGit, SiGithub 
 } from 'react-icons/si';
 
 const technologies = [
@@ -54,78 +54,94 @@ const technologies = [
     color: "blue",
     description: "JavaScript library for building user interfaces or UI components, maintained by Facebook."
   },
+  // {
+  //   id: 7,
+  //   name: "Vue.js",
+  //   icon: <SiMysql size={48} />,
+  //   color: "green",
+  //   description: "Progressive framework for building user interfaces, designed to be incrementally adoptable."
+  // },
   {
     id: 7,
-    name: "Vue.js",
-    icon: <FaVuejs size={48} />,
-    color: "green",
-    description: "Progressive framework for building user interfaces, designed to be incrementally adoptable."
-  },
-  {
-    id: 8,
     name: "Angular",
     icon: <FaAngular size={48} />,
     color: "red",
     description: "Platform for building mobile and desktop web applications using TypeScript/JavaScript."
   },
   {
-    id: 9,
+    id: 8,
     name: "Node.js",
     icon: <FaNodeJs size={48} />,
     color: "green",
     description: "JavaScript runtime built on Chrome's V8 JavaScript engine for building scalable network applications."
   },
   {
-    id: 10,
+    id: 9,
     name: "Python",
     icon: <FaPython size={48} />,
     color: "blue",
     description: "Interpreted, high-level, general-purpose programming language that emphasizes code readability."
   },
   {
-    id: 11,
+    id: 10,
     name: "Java",
     icon: <FaJava size={48} />,
     color: "red",
     description: "Class-based, object-oriented programming language designed for portability and cross-platform development."
   },
   {
-    id: 12,
+    id: 11,
     name: "Flutter",
     icon: <SiFlutter size={48} />,
     color: "blue",
     description: "Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase."
   },
   {
-    id: 13,
+    id: 12,
     name: "Firebase",
     icon: <SiFirebase size={48} />,
     color: "yellow",
     description: "Google's mobile and web application development platform that provides tools and infrastructure."
   },
   {
-    id: 14,
+    id: 13,
     name: "MongoDB",
     icon: <SiMongodb size={48} />,
     color: "green",
     description: "Cross-platform document-oriented database program classified as a NoSQL database."
   },
   {
-    id: 15,
+    id: 14,
     name: "PostgreSQL",
     icon: <SiPostgresql size={48} />,
     color: "blue",
     description: "Powerful, open-source object-relational database system with strong reputation for reliability and data integrity."
   },
+ {
+  id: 15,
+  name: "PostgreSQL",
+  icon: <FaDatabase size={48} />,
+  color: "#336791",
+  description: "Powerful, open-source object-relational database system known for reliability, feature robustness, and data integrity."
+  },
+
   {
-    id: 16,
+  id: 16,
+  name: "MySQL",
+  icon: <SiMysql size={48} />,
+  color: "#00758F",
+  description: "Speed, reliability, and ease of use in web and enterprise applications."
+  },
+
+  {
+    id: 17,
     name: "Tailwind CSS",
     icon: <SiTailwindcss size={48} />,
     color: "blue",
     description: "Utility-first CSS framework for rapidly building custom user interfaces."
   },
   {
-    id: 17,
+    id: 18,
     name: "Unity",
     icon: <FaUnity size={48} />,
     color: "gray",
@@ -133,34 +149,34 @@ const technologies = [
   },
 
   {
-  id: 18,
+  id: 19,
   name: "Raylib",
   icon: <FaCube size={48} />,
   color: "orange",
-  description: "A simple and easy-to-use C library for learning game programming and graphics development."
+  description: "C-based graphics library for building simple and fast games."
   },
 
   {
-    id: 19,
+    id: 20,
     name: "Figma",
     icon: <FaFigma size={48} />,
     color: "purple",
     description: "Cloud-based design and prototyping tool for digital projects."
   },
   {
-    id: 20,
+    id: 21,
     name: "Adobe XD",
     icon: <SiAdobexd size={48} />,
     color: "pink",
     description: "Vector-based user experience design tool for web apps and mobile apps."
   },
-  {
-    id: 21,
-    name: "GraphQL",
-    icon: <SiGraphql size={48} />,
-    color: "pink",
-    description: "Query language for APIs and a runtime for executing those queries with your existing data."
-  },
+  // {
+  //   id: 21,
+  //   name: "GraphQL",
+  //   icon: <SiGraphql size={48} />,
+  //   color: "pink",
+  //   description: "Query language for APIs and a runtime for executing those queries with your existing data."
+  // },
 
   {
   id: 22,
@@ -168,7 +184,33 @@ const technologies = [
   icon: <SiAdobephotoshop size={48} />,
   color: "blue",
   description: "Industry-standard software for photo editing, graphic design, and digital art by Adobe."
+  }, 
+
+  {
+  id: 23,
+  name: "Adobe Illustrator",
+  icon: <SiAdobeillustrator size={48} />,
+  color: "#FF9A00",
+  description: "Vector design tool for creating logos, icons, and illustrations."
+  }, 
+
+  {
+  id: 24,
+  name: "Git",
+  icon: <SiGit size={48} />,
+  color: "#F05032",
+  description: "Distributed version control system for source code management."
+  },
+  
+  {
+  id: 25,
+  name: "GitHub",
+  icon: <SiGithub size={48} />,
+  color: "#181717",
+  description: "Code hosting platform for version control and team collaboration."
   }
+
+
  
 ];
 
